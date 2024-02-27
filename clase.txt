@@ -1,0 +1,13 @@
+y			&&   mayuscula 6 veces
+
+||	alt gra 1
+
+!	tecla mayuscula 1
+
+¿Cómo funcionan los operadores aritméticos en JavaScript?
+Algunos de los operadores aritméticos en JavaScript son obvios, pues son similares a los que utilizaríamos o veríamos en una calculadora. Estos operadores son los responsables de los cálculos básicos, como suma, resta, multiplicación y división. A continuación, te los recordamos:
+
+Suma: se utiliza el operador +. (a + b).
+Resta: se utiliza el operador –. (a – b)
+Multiplicación: se utiliza el operador asterisco *. (a * b)
+División: se utiliza el operador de barra oblicua /. (a / b).
