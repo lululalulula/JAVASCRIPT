@@ -1,2 +1,2 @@
-const h =5, y=10;
-console.log("esta bien")
+const h = 5;
+const y = 10;

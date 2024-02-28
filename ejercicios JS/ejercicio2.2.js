@@ -4,9 +4,16 @@ firstName = 'Jon';
 age = 24;
 Muestralos por consola de esta forma:
 'Soy Jon Snow, tengo 24 años y me gustan los lobos.'*/
+const firstName = "Jon";
+const lastName = "Snow";
+const age = 24;
 
-firstName = 'Jon';
-lastName = 'Snow';
-age = 24;
-console.log ("Soy "+firstName+""+lastName+","+"tengo "+age+" y me gustan los lobos.");
-
+const frase =
+  "Soy " +
+  firstName +
+  " " +
+  lastName +
+  ", tengo " +
+  age +
+  " años y me gustan los lobos.";
+console.log(frase);

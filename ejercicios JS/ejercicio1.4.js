@@ -1,2 +1,3 @@
-const z = (5+10)
-console.log("15")
+const z = h + y;
+console.log(z);
+
