@@ -2,8 +2,7 @@
 Puedes usar este array:
 const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']*/
 const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
-for (placesToTravel i = 0; i < placesToTravel.length; i++) {const placesToTravel = placesToTravel[i];	
+for (const destination of placesToTravel) {
+    console.log(destination);
 }
 
-console.log(placesToTravel[i]);
-}
