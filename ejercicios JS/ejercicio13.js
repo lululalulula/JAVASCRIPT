@@ -15,4 +15,28 @@ const duplicates = [
 ];
 function removeDuplicates(param) {
 // insert code
-}*/
+}
+Array.forEach es otra forma de iterar sobre el arreglo y como tal también permite remover duplicados pero de una forma más imperativa.*/
+const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+    ];
+    const unicos = [];
+    for(i = 0; i < duplicates.length; i++) {
+           const elemento = numeros[i];
+           if (unicos.includes(numeros[i])) {
+        unicos.push(elemento);
+      }
+    }
+    
+    console.log(unicos); // [1, 2, 3, 4, 5]
+    
