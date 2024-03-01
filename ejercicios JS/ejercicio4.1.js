@@ -1,4 +1,4 @@
-/*Consigue el valor "HULK" del array de avengers y muestralo por consola.
-const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];*/
+//1.1 Consigue el valor "HULK" del array de avengers y muestralo por consola.
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
-console.log(avengers[avengers.length - 2]);
+console.log(avengers[0]);
+

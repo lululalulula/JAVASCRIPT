@@ -1,4 +1,6 @@
-const x = 50;
-console.log (x);
+const character = {name: 'Jack Sparrow', age: 10};
+character.age=25;
+
+
 
 
