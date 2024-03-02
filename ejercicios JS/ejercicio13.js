@@ -1,6 +1,6 @@
-/*Valores únicos: Crea una función que reciba por parámetro un array y compruebe si existen elementos duplicados, en caso que
-existan los elimina para retornar un array sin los elementos duplicados. Puedes usar este array para probar tu función:
-const duplicates = [
+/*crea una función que reciba por parámetro un array y compruebe si existen elementos duplicados
+ y en el caso de que existan los elimine para retornar un array sin los elementos duplicados. 
+ const duplicates = [
 'sushi',
 'pizza',
 'burger',
@@ -30,6 +30,7 @@ const duplicates = [
     'pasta',
     'soda'
     ];
+    //creas const donde recoges los no duplicados
     const unicos = [];
     for(i = 0; i < duplicates.length; i++) {
            const elemento = numeros[i];
