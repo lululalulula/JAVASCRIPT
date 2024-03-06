@@ -1,13 +1,231 @@
 y			&&   mayuscula 6 veces
 
+
 ||	alt gra 1
+
 
 !	tecla mayuscula 1
 
-¿Cómo funcionan los operadores aritméticos en JavaScript?
-Algunos de los operadores aritméticos en JavaScript son obvios, pues son similares a los que utilizaríamos o veríamos en una calculadora. Estos operadores son los responsables de los cálculos básicos, como suma, resta, multiplicación y división. A continuación, te los recordamos:
 
+¿Cómo funcionan los operadores aritméticos en JavaScript?
 Suma: se utiliza el operador +. (a + b).
 Resta: se utiliza el operador –. (a – b)
 Multiplicación: se utiliza el operador asterisco *. (a * b)
 División: se utiliza el operador de barra oblicua /. (a / b).
+
+METODOS
+
+length		 (go to hell)   longitus string incluido espacios
+La propiedad length devuelve la cantidad de elementos del array. 
+const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+console.log(clothing.length);
+
+unshift -> Mete elementos en la primera posición del array
+alimentos.unshift("Aguacate");
+console.log(alimentos);
+
+shift -> quita la primera posicion
+x.shift();
+
+splice -> quita y pone en su lugar
+//Primer parametro -> Posicion del elemento donde empiezo a eliminar
+//Segundo parametros -> El numero de elementos HUMANOS a eliminar
+//Tercer parametro opcional -> Que elementos pongo en su lugar
+alimentos.splice(1, 2, "Galletas de Dinosaurio");
+console.log(alimentos);
+
+
+
+
+includes	para ver si se incluye	y contesta con true o false	(  )
+		constante.includes ("   ")repeat		(  )	
+replace		solo cambia la primera coincidencia	(  )
+replaceAll	todas las coincidencias			(  )
+toLowerCase: 	convertido a minúsculas
+toUpperCase:	convertido a mayúsculas			(  )
+trim		elimina los espacios en blanco del principio y el final del string		(  )
+
+const toy1 = {name: 'Buss myYear', price: 19};
+const toy2 = {name: 'Rallo mcKing', price: 29};
+console.log(toy1.price + toy2.price);
+
+// con el punto llamamos a la cons price del cons toy1 //
+
+
+Objeto={
+propiedad:valor,
+};
+para sacar una propiedad creo una contante=objeto.valor;
+
+con delete elimino
+
+arrays se accede por la posicion 
+
+
+
+metodos que modifican el aray: 
+pop() no admite parámetros. Elimina el último elemento del array.
+alimentos.pop();
+console.log(alimentos);
+
+push() entre los paréntesis se pueden añadir tantos valores como se quiera añadir a el
+array, separados por comas (,). Añade un elemento al array en última posición.
+moderatIII.push('Ethereal');
+x.push[("Morty"," Summer")]; 
+
+reverse() tampoco admite parámetros. Invierte el orden del array.
+
+shift() funciona como pop(), pero extrayendo del array el primer elemento. Todos los
+índices de la matriz se actualizan.
+moderatIII.shift();
+
+sort() ordena los elementos del array por orden alfabético.	moderatIII.sort();
+
+se pueden apicar un metodo despues de otro
+unshif("") añade en el primera positicion
+
+splice (posicion-empieza en o-,cuanto elementos a quitar, que elementos pongo en su lugar);
+
+
+metodos que no modifican el array: cosultas sobre copias del array
+toString() unes los arrays con coma
+join() devuelve una mera cadena en la que los valores del
+array están separados on la tecla que diga (", ") si es () vacio pone el solo las comas.
+
+slice coge el primer que inclute y el segundo no lo incluye, y los saca y puedo usrlos
+
+indexOf(lemnto a buscar) esd un buscador de posiconesç
+
+lastIndexOf te busca desde el final sin cambiar la posicion
+
+includes( ) y devuelve true o false	
+
+
+BUCLE
+
+BUCLE FOR recorres elemeto recorrible como arrays, string u objeto  (iterar)(recorre lo que quiero del array) 
+
+for (inicialización; condición; actualización) {
+    // Código a repetir
+}
+
+Inicialización: Se ejecuta una vez al principio del bucle y se utiliza para establecer un valor inicial, 
+generalmente un contador.
+
+Condición: Se evalúa antes de cada iteración. Si la condición es verdadera, el código dentro del bucle se ejecuta; 
+de lo contrario, el bucle se detiene.
+
+Actualización: Se ejecuta al final de cada iteración y se utiliza para modificar la variable de control,
+generalmente incrementándola o decrementándola.
+
+
+for (variable con valor; condicion que se debe cumplir
+    let index= 0;
+    let i = 0;      empieza por el principo 
+    
+                ;i > 10;		
+		aqui ponemos el numero de repeticiones
+					i++)
+		  			aqui decimos que vaya al siguiente (y pasa de numeros [i] maquina a humans)
+		i < variable.length asi ponemos el numero max sin sberlo
+							{
+							
+console.log[i] sacamos el resultado fueta y solo muiesra el final (dentro de las llaves y muestra cada uno hasta el final)
+
+}
+
+
+ buque while que repite un bloque de código mientras se cumple una condicion
+let contador = 0;
+while (contador < 5) {
+    console.log(contador);
+    contador++;
+}
+
+
+
+bucle for...of:
+for (conts nuevaconstante of constant){
+							}						
+(recorre todo array entero)
+
+un ejemplo:
+const animales = ["Perro", "Gato", "Loro", "Ornitorrinco", "Mirlo", "Urraca"];
+for (const animal of animales) {
+  console.log(animal);
+}
+
+Inicia un bucle for...of. En cada iteración, la variable animal tomará el valor del elemento actual en el array animales.
+
+console.log(animal): Imprime en la consola cada valor de animal en cada iteración 
+Al ejecutar este bucle, imprimirá en la consola cada animal del array animales en una línea separada.
+
+otro este ejemplo:
+const numeros = [1, 2, 3, 4, 5];
+for (const numero of numeros) 
+{
+    console.log(numero);
+}
+
+numeros es un array que contiene los números del 1 al 5.
+for (const numero of numeros) es la estructura del bucle for...of. Este bucle itera sobre cada elemento del array numeros.
+En cada iteración del bucle, la variable numero toma el valor del elemento actual del array. Por lo tanto, en la primera iteración, 
+numero será 1; en la segunda, será 2, y así sucesivamente. 
+El bucle se detendrá después de que todos los elementos del array hayan sido recorridos.
+
+
+forEach
+const.foreach((constindividual)=> {
+
+
+})
+
+foron
+//recorrer objeto, no array
+creamos un objeto con prpiedad y valor y con for (
+
+
+DOM JS
+
+1/ Primero tenemos que enlazar nuestro fichero html con javascript.
+<script src="name_file.js" defer></script>
+
+2/ luego tenemos que acceder a los elementos:
+
+document.getElementById('someid');	// Obtiene un elemento por id
+
+document.getElementsByClassName('someclass');		// Obtiene una lista con los elementos que tienen esa clase
+
+document.getElementsByTagName('li');			// Obtiene una HTMLCollection con los todos
+
+3/ Crear nuevos elementos
+let nuevoParrafo = document.createElement('p');			// Para crear elementos llamamos a createElement con el nombre del elemento
+
+let textoH1 = document.createTextNode('Hola mundo!');		         // Crear nodos de texto para un elemento
+let textoParrafo = document.createTextNode('lorem ipsum...');	
+	
+nuevoH1.appendChild(textoH1);						// Añadir el texto a los elementos
+nuevoParrafo.appendChild(textoParrafo);
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

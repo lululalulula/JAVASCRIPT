@@ -1,0 +1,2 @@
+const resultado3 = 15 % 9;
+console.log(resultado3);

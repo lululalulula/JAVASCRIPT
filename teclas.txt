@@ -1,0 +1,30 @@
+/*
+Esto es un 
+comentario de 
+bloque
+*/
+
+// == IGUAL QUE (COMPARACION)
+// != DISTINTO A
+// === ESTRICTAMENTE IGUAL
+// !== ESTRICTAMENTE DIFERENTE
+
+
+y			&&   mayuscula 6 	y
+
+||	alt gra 1				o
+
+!	tecla mayuscula 1			no
+
+
+
+las consola se borra con clear
+
+
+
+comilla francesas al lado p comillas francesas	 ${} 
+	los espacios se detectan y se llama llamas con el dolar y llaves y en las llaves{ejecuta js}
+	asi llama a el cotenido ${pelicula.año}
+
+podemos usar ls comilla sin llave:
+estas comillas dejan hacer espacios en los strig y hacer enter sin que sw rompa el string
